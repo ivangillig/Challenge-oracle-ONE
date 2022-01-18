@@ -112,6 +112,7 @@ function encriptar (textoIngresado) {
  
  
 
+
  const botonCopiar = document.querySelector("#btn-copy");
 
  botonCopiar.addEventListener("click", function(event) {

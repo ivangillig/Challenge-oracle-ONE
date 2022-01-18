@@ -10,14 +10,24 @@ body {
 }
 
 .main {
-  width: 80vw;
+  width: 80rem;
   margin: auto;
-  display: flex;
+  gap: 3rem;
   justify-content: center;
+}
+
+.grid {
+  
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  row-gap: 2rem;
+  justify-items: center;
+    align-items: center;
 }
 
 .titulo {
   padding: 15px;
+  text-align: center;
   width: 30vw;
   margin: auto;
 
@@ -25,11 +35,11 @@ body {
 
 .box {
   padding: 10px;
-  margin: 0 10px 0 10px;
+  margin: 10px 10px 0 10px;
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
   background-color: white;
   border-radius: 0.5em;
-  width: 30vw;
+  width: 35vw;
   height: auto;
 }
 
@@ -46,8 +56,20 @@ body {
 .text-input {
   border-radius: 0.5em;
   border: 1px solid rgba(0, 0, 0, 0.2);
-  display: block;
+  
   padding: 0.5em;
   width: 100%;
   height: 50px;
+}
+
+.instrucciones {
+  padding: 10px;
+  margin: 0 10px 0 10px;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  background-color: white;
+  border-radius: 0.5em;
+  height: auto;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  
 }

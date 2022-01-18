@@ -8,23 +8,33 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1 class="titulo">código secreto</h1>
+  <h1 class="titulo">Ccódigo secreto</h1>
 
   <main class="main">
-    <section class="form box">
-      <form >
-        <label for="input-texto">Solo letras minúsculas, sin acento</label>
-        <input class="text-input" type="text" name="input-texto" id="input-texto" placeholder="Ingrese el texto aqui">
-        <input class="btn" type="submit" value="encriptar!" id="btn-encriptar">
-        <input class="btn" type="submit" value="desencriptar!" id="btn-desencriptar">
-      </form>
+    <section>
+      <div  class="grid">
+        <div class="form box">
+          <form action="">
+            <h2 >Solo letras minúsculas, sin acentos!</h2>
+            <input class="text-input" type="text" name="input-texto" id="input-texto" placeholder="Ingrese el texto aqui">
+            <input class="btn" type="submit" value="encriptar!" id="btn-encriptar">
+            <input class="btn" type="submit" value="desencriptar!" id="btn-desencriptar">
+          </form>
+        </div>
+    
+    
+      <div class="msg box">
+        <h2 id="">Mensaje encriptada:</h2>
+        <input class="text-input" type="text" id="msg"></input>
+        <input class="btn" type="submit" value="copiar" id="btn-copy">
+      </div>
+
+      <div class="instrucciones">
+        <p >Este proyecto para Oracle/Alura consiste en un encriptador/desencriptador de mensajes que valide texto solo en minusculas y sin acentos. <br>Para ver mis otros proyectos ir a <a href="https://github.com/ivangillig/">https://github.com/ivangillig/</a> </p>
+      </div>
+    </div>
     </section>
-  
-    <section class="msg box">
-      <h2 id="">Mensaje encriptada:</h2>
-      <input class="text-input" type="text" id="msg"></input>
-      <input class="btn" type="submit" value="copiar" id="btn-copy">
-    </section>
+    
   </main>
 
   <script src="script.js"></script>

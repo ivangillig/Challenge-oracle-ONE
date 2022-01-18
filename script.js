@@ -107,47 +107,10 @@ function encriptar (textoIngresado) {
         textoIngresado = textoIngresado.replaceAll("ober", "o");
         textoIngresado = textoIngresado.replaceAll("ufat", "u");
 
-        // for (var i = 0; i< textoIngresado.length; i++) {
-        //     var caracter = textoIngresado.charAt(i);
-
-
-        //         switch (caracter){
-        //             case "ai":
-        //                 textoDesencriptado[i] ="a";
-        //                 break;
-
-        //             case "enter":
-        //                 textoDesencriptado[i] = "e";
-        //                 break;
-
-        //             case "imes":
-        //                 textoDesencriptado[i] = "i";
-        //                 break;
-
-        //             case "ober":
-        //                 textoDesencriptado[i] = "o";
-        //                 break;
-
-        //             case "ufat":
-        //                 textoDesencriptado[i] = "u";
-        //                 break;
-
-        //             case " ":
-        //                 textoDesencriptado[i] = " ";
-        //                 break;
-
-        //             default:
-        //                 textoDesencriptado[i] = caracter;
-        //                 break;
-
-        //         }
-        // }
-
         return textoIngresado;
     }
  
  
-
 
  const botonCopiar = document.querySelector("#btn-copy");
 
